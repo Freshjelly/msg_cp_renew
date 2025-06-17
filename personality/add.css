@@ -1,0 +1,50 @@
+body{
+    font-family: 'Kosugi Maru', sans-serif !important;
+}
+
+.container.hidden{
+    display: none;
+}
+
+.container h1{
+    font-size: 2rem;
+}
+
+.container{
+    height: 100vh;
+    animation: fadeIn 2s ease 0s 1 normal;
+}
+
+.heart h2{
+    color: #ff7f50;
+}
+
+span.badge-heart{
+    color: #fff;
+    background-color: #ff8f66;
+    font-size: 100%;
+}
+
+.spade h2{
+    color: #dc143c;
+}
+
+span.badge-spade{
+    color: #fff;
+    background-color: #db5872;
+    font-size: 100%;
+}
+
+
+
+
+@keyframes fadeIn { 
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+/*旧 Safari 用のベンダー処理*/
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}

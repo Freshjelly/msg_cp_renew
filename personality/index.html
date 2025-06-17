@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>コミュニケーションタイプ分け</title>
+        <meta name="description" content="">
+        <link href="../asset/css/common.css" rel="stylesheet">
+        <link href="../asset/css/personality.css" rel="stylesheet">   
+        <!-- Font Awesome CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">    <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="shortcut icon" href="../asset/img/favicon.ico">
+    </head>
+    <body>
+        <main>
+            <section id="start" class="container fade-in">
+                <h1 class="font-weight-bold my-5 text-center">コミュニケーションカードWeb版</h1>
+                <p>コーチング理念、様々なパーソナル理論、脳生理科学、心理学などをベースに、より良い人間関係づくりを目的として実施しています。</p>
+                <img src="img/group_young_world.png" class="w-100 d-block mx-auto">
+                <button id="start_button" type="button" class="btn btn-success btn-block my-3">早速はじめよう！</button>    
+            </section>
+            <section id="q1" class="container hidden heart fade-in">
+                <h2 class="font-weight-bold mt-5 text-center">設問1<br />細かいことは気にせず忘れっぽい人</h2>
+                <p class="text-center"><span class="badge badge-pill badge-heart px-3">自由奔放</span></p>
+                <img src="img/group_young_world.png" class="w-100 d-block mx-auto">
+                <div class="btn-group-vertical btn-group-lg d-block mx-auto my-3" role="group" aria-label="select">
+                    <button id="q1_button1" type="button" class="btn btn-success" value="細かいことは気にせず忘れっぽい" onclick="next_q(this)">当てはまる</button>
+                    <button id="q1_button2" type="button" class="btn btn-primary" onclick="next_q(this)">当てはまらない</button>
+                    <button id="q1_button3" type="button" class="btn btn-light" onclick="next_q(this)">一旦保留</button>
+                </div>
+            </section>
+            <section id="q2" class="container hidden heart fade-in">
+                <h2 class="font-weight-bold mt-5 text-center">設問2<br />新しいことにワクワク取り掛かれる人</h2>
+                <p class="text-center"><span class="badge badge-pill badge-heart px-3">チャレンジャー</span></p>
+                <img src="img/group_young_world.png" class="w-100 d-block mx-auto">
+                <div class="btn-group-vertical btn-group-lg d-block mx-auto my-3" role="group" aria-label="select">
+                    <button id="q2_button1" type="button" class="btn btn-success" onclick="next_q(this)">当てはまる</button>
+                    <button id="q2_button2" type="button" class="btn btn-primary" onclick="next_q(this)">当てはまらない</button>
+                    <button id="q2_button3" type="button" class="btn btn-light" onclick="next_q(this)">一旦保留</button>
+                </div>
+            </section>
+            <section id="q3" class="container hidden spade fade-in">
+                <h2 class="font-weight-bold mt-5 text-center">設問3<br />単刀直入に話しなんでもハッキリさせたい人</h2>
+                <p class="text-center"><span class="badge badge-pill badge-spade px-3">白黒ハッキリ</span></p>
+                <img src="img/group_young_world.png" class="w-100 d-block mx-auto">
+                <div class="btn-group-vertical btn-group-lg d-block mx-auto my-3" role="group" aria-label="select">
+                    <button id="q2_button1" type="button" class="btn btn-success" onclick="next_q(this)">当てはまる</button>
+                    <button id="q2_button2" type="button" class="btn btn-primary" onclick="next_q(this)">当てはまらない</button>
+                    <button id="q2_button3" type="button" class="btn btn-light" onclick="next_q(this)">一旦保留</button>
+                </div>
+            </section>
+        </main>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script>
+        <script src="../asset/js/common.js"></script>
+    </body>
+</html>

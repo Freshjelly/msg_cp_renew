@@ -1,0 +1,129 @@
+/* base design */
+body{
+    font-family: 'Kosugi Maru', sans-serif !important;
+}
+
+body h1,body h2,body h3,body h4,body h5,body h6{
+    font-weight: 600;
+}
+
+p{
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+}
+
+.container a{
+    color: #755f17;
+}
+
+.container a:hover{
+    color: #b59324;
+}
+
+.bg-origin{
+    background-color: rgba(255,255,255,0.8);
+}
+
+.bg-footer, .bg-origin-sub{
+    background-color: #F9EBD1;
+}
+
+.bg-3{
+    background-color: rgba(249,235,209,0.2);
+}
+
+.mt-8{
+    margin-top: 7rem;
+}
+
+/* header */
+header.navbar{
+    padding: 0.3rem 1rem;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+button.navbar-toggler{
+    background-color: #172d75;
+}
+
+a.navbar-brand{
+    padding-top: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #707070;
+}
+
+/* Top Content */
+div.jumbotron{
+    margin-bottom: 0;
+}
+
+.jumbotron {
+    background-image: url("img/bg3.jpg");
+    background-size: cover;
+    background-position: center 0;
+    min-height: 550px;
+}
+
+.jumbotron h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+    color: #fff;
+    line-height: 4rem;
+    text-shadow: 0 0 0.5em rgba(117,95,23,0.9);
+}
+
+/* Service */ 
+.card{
+    min-height: 512px;
+}
+
+a.btn-origin, .btn-origin{
+    color: #fff;
+    background-color: #172d75;
+    border-color: #172d75;
+}
+
+/* About */
+table th{
+    width: 140px;
+}
+
+/* Contact */
+iframe.iframe{
+    height: 790px;
+}
+
+/* Adviser */
+.adviser p{
+    font-size: 1rem;
+}
+.adviser img{
+    max-height: 240px;
+}
+/* Privacy */
+.privacy h3{
+    font-size: 1.3rem;
+}
+
+.privacy p{
+    font-size: 1rem;
+}
+
+/* footer */
+.copyright{
+    letter-spacing: 0;
+    font-size: 0.75rem;
+}
+
+@media screen and (max-width: 380px){
+    .jumbotron h1{
+        font-size: 1.8rem;
+        letter-spacing: 0.25rem;
+        line-height: 3rem;
+    }
+}
